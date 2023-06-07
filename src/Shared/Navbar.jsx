@@ -5,8 +5,6 @@ const Navbar = () => {
      const navOptions = (
         <>
           <li><NavLink className={({ isActive }) => (isActive ? 'text-red-500' : 'default')}  to="/">Home</NavLink></li>
-          <li><NavLink className={({ isActive }) => (isActive ? 'text-red-500' : 'default')}  to="/movies">Movies</NavLink></li>
-          
           
         </>
       );
